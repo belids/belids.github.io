@@ -1,6 +1,6 @@
 body	{
 	text-align: center;
-	background: url("http://www.desktopimages.org/pictures/2014/0424/1/fruits-berries-acai-berries-wallpaper-471169.jpg");
+	background: url("http://il6.picdn.net/shutterstock/videos/9156614/thumb/1.jpg");
 	background-size: cover;
 	color: #EDD1A5
 
@@ -19,12 +19,12 @@ p  	{
 }
 
 #summary	{
-	color: #D6FF46;
-	font-weight: bold;
+	
 }
 
 #slogan		{
-	color: #D6FF46;
+
+	color: #ACFFC3
 	font-weight: bolder;
 	font-size: 150%
 
@@ -33,3 +33,18 @@ p  	{
 hr	{
 	width: 200px
 }
+
+nav	{
+	font-family: 'Croissant One', cursive;
+	font-weight: bold;
+	color: white;
+}
+
+section	{
+	font-family: 'Kaushan Script', cursive;
+	font-weight: bold;
+	color: #A2DCF0;
+
+
+}
+
