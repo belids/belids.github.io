@@ -1,6 +1,6 @@
 body	{
 	text-align: center;
-	background: url("http://il6.picdn.net/shutterstock/videos/9156614/thumb/1.jpg");
+	background: url("http://bgfons.com/upload/coffe_chocolate_texture1513.jpg");
 	background-size: cover;
 	color: #EDD1A5
 
@@ -55,14 +55,27 @@ section	{
 }
 
 #left	{
-	background-color: #E582A2;
+	background-color: violet;
 	border: 1px black solid;
 	padding: 20px;
+	float: left;
+	width: 30%;
 }
 
 #right	{
-		background-color: #E55B88;
+		background-color: pink;
 		border: 1px black solid;
 		padding: 20px;
+		float: right;
+		width: 62%;
 }
 
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
