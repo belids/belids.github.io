@@ -1,0 +1,78 @@
+body	{
+	text-align: center;
+	background: url("http://il6.picdn.net/shutterstock/videos/9156614/thumb/1.jpg");
+	background-size: cover;
+	color: #EDD1A5
+
+	}
+
+h1	{
+	font-family: 'Kaushan Script', cursive;
+	font-weight: bold;
+	font-size: 400%
+}
+
+header {
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+p  	{
+	font-family: 'Croissant One', cursive;
+	font-weight: bold;\
+	font-size: 350%
+}
+
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#summary	{
+	
+}
+
+#slogan		{
+
+	color: #ACFFC3
+	font-weight: bolder;
+	font-size: 150%
+
+}	
+
+hr	{
+	width: 200px
+}
+
+nav	{
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section	{
+	font-family: 'Kaushan Script', cursive;
+	font-weight: bold;
+	color: #A2DCF0;
+
+
+}
+
+aside {
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+footer {
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+div {
+    border: 1px black solid;
+    padding: 20px;
+}

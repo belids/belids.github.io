@@ -1,0 +1,26 @@
+body	{
+	font-size: 40px;
+}
+
+div	{
+	float: left;
+	margin: 10px;
+}
+
+
+.em-unit	{
+		background-color: #FF6A5E;
+		width:	1em;
+		height:	1em;
+}
+
+.pixel-unit	{
+	background-color: #C05EFF;
+	width:	40px;
+	height:	40px;
+}
+
+
+#section2	{
+	font-size: 80px
+}

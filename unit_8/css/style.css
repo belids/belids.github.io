@@ -1,0 +1,222 @@
+header	{
+	font-size: 2em;
+	color: #abd6d8;
+}
+
+
+
+body	{
+	text-align: center;
+	background: url("http://static1.squarespace.com/static/50465e41c4aa99448138f889/504faedee4b0b183e6161155/576463174402432fcc11f5c7/1468167667930/?format=1000w") no-repeat; background-size: cover; 
+	color: #EDD1A5
+	}
+
+h1	{
+	font-family: 'Kaushan Script', cursive;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+p  	{
+	font-family: 'Croissant One', cursive;
+	font-weight: bold;\
+	font-size: 2em;
+}
+
+#summary	{
+	
+}
+
+#slogan		{
+
+	color: #ACFFC3
+	font-weight: bolder;
+	font-size: 2em;
+
+}	
+
+hr	{
+	width: 80%;
+}
+
+nav	{
+	font-family: 'Croissant One', cursive;
+	font-weight: bold;
+	color: white;
+}
+
+section	{
+	font-family: 'Kaushan Script', cursive;
+	font-weight: bold;
+	color: #d6abab;
+
+
+}
+
+#two_column	{
+	border: 50% black solid;
+	padding: 20px;
+}
+
+#left	{
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right	{
+		border: 1px black solid;
+		padding: 20px;
+		float: right;
+		width: 62%;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+
+
+  @media screen and (max-width: 1124px){
+ 	h1	{
+	font-size: 40px;
+}
+
+	h2	{
+		font-size: 30px;
+	}
+
+	h3	{
+		font-size: 20px;
+	}
+
+	#two_column	{
+    margin: 0 auto;
+}
+
+#left	{
+	border: 1px black solid;
+	padding: 20px;
+	float: none;
+	width: 100%;
+
+}
+
+#right	{
+		border: 1px black solid;
+		padding: 20px;
+		float: none;
+		width: 100%;
+		
+ }
+
+ p{
+ 	font-size: 20px;
+ }
+
+}
+
+
+@media screen and (max-width: 626px)	{
+
+ 	h1	{
+	font-size: 40px;
+}
+
+	h2	{
+		font-size: 25px;
+	}
+
+	h3	{
+		font-size: 20px;
+	}
+
+	#two_column	{
+    margin: 0 auto;
+}
+
+#left	{
+	border: 1px black solid;
+	padding: 20px;
+	float: none;
+	width: 100%;
+
+}
+
+#right	{
+		border: 1px black solid;
+		padding: 20px;
+		float: none;
+		width: 100%;
+		
+ }
+
+ p{
+ 	font-size: 15px;
+ }
+
+}
+
+
+@media screen and (max-width: 530px)	{
+
+ 	nav	{
+ 		font-size: 14px;
+ 		padding: 20px;
+
+ 	}
+ 	#nav ul {
+padding: 5px;
+border-left: 1px;
+text-align: center;
+ width: 150px;}
+
+
+ @media screen and (max-width: 505px)	{
+
+ 	nav	{
+ 		font-size: 13px;
+ 		padding: 20px;
+}
+
+ 
+ @media screen and (max-width: 473px)	{
+
+ 	nav	{
+ 		font-size: 12px;
+ 		padding: 20px;
+}
+
+
+ @media screen and (max-width: 440px)	{
+
+ 	nav	{
+ 		font-size: 11px;
+ 		padding: 20px;
+}
+
+#right	{
+	display: none;
+}
+
+}
+
+
+
+a {
+	color: brown
+}
+
+
+
+
+
+ 

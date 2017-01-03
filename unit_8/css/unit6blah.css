@@ -1,0 +1,48 @@
+#content  {
+	Float: left;
+	Width: 560px;
+	Padding: 20px 0;
+	Margin: 0 0 0 30px;
+}
+
+
+aside {
+	Float: right;
+	Font-size: 14px;
+	Width: 240px;
+	Padding: 20px 0;
+	Margin: 0 20px 0 0;
+}
+
+
+.clearfix:after	{
+	Visibility: hidden;
+	Display: block;
+	Font-size: 0;
+	Content: “ “;
+	Clear: both;
+	Height: 0;
+}
+
+.column {
+	Float: left;
+	Width: 260px;
+	Height: 300px;
+	Padding: 20px;
+	Margin: 0;
+}
+
+
+#column1	{
+	Background-color: #AC54FF;
+}
+
+
+#column2	{
+	Background-color: #5485FF;
+}
+
+
+#column3	{
+	Background-color: #47FFF2;
+}

@@ -1,0 +1,38 @@
+body	{
+	font-size: 30px;
+	font-family: Helvetica,	Arial,	sans-serif;
+}
+
+
+h1, h2, h3	{
+	margin: 1.5em 0;
+	font-weight: bold;
+}
+
+
+h1	{
+	font-size: 2em;
+}
+
+
+
+h2	{		
+	font-size: 1.8em;
+}
+
+
+h3	{
+	font-size:	1.6em;
+}
+
+p	{
+	font-size: 30px;
+	line-height: 45px;
+	padding: 0 30px;
+}
+
+@media only screen and (max-width: 768px)	{
+	body	{
+		font-size: 24px
+	}
+}
