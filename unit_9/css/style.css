@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Croissant+One');
+*{box-sizing: border-box;}
+
+
 header	{
 	font-size: 2em;
 	color: #abd6d8;
@@ -44,11 +49,32 @@ nav	{
 	font-weight: bold;
 	color: white;
 }
+nav a {
+	display: inline-block;	
+	padding: 5px;
+	border-right: 2px solid black;
+
+}
+nav a:last-child	{
+	border: none;
+}
+
+
+
+nav a:hover {
+	color: orange;
+}
+
+nav a:visited {
+	color: aliceblue;
+}
+
+
 
 section	{
 	font-family: 'Kaushan Script', cursive;
 	font-weight: bold;
-	color: #d6abab;
+	color: burlywood;
 
 
 }
@@ -69,7 +95,7 @@ section	{
 		border: 1px black solid;
 		padding: 20px;
 		float: right;
-		width: 62%;
+		width: 70%;
 }
 
 
@@ -125,11 +151,11 @@ section	{
 }
 
 
-@media screen and (max-width: 626px)	{
+	@media screen and (max-width: 626px)	{
 
  	h1	{
 	font-size: 40px;
-}
+	}
 
 	h2	{
 		font-size: 25px;
@@ -141,27 +167,19 @@ section	{
 
 	#two_column	{
     margin: 0 auto;
-}
+	}
 
-#left	{
-	border: 1px black solid;
-	padding: 20px;
-	float: none;
+	#left	{
 	width: 100%;
+	}
 
-}
-
-#right	{
-		border: 1px black solid;
-		padding: 20px;
-		float: none;
+	#right	{
 		width: 100%;
-		
- }
+ 	}
 
  p{
  	font-size: 15px;
- }
+ 	}
 
 }
 
@@ -173,34 +191,17 @@ section	{
  		padding: 20px;
 
  	}
- 	#nav ul {
-padding: 5px;
-border-left: 1px;
-text-align: center;
- width: 150px;}
+ 	nav a{
+ 		display:block;
+ 		width: 100%;
+ 		border: none;
+ 		text-align: center;
+ 	}
 
+ }
 
- @media screen and (max-width: 505px)	{
-
- 	nav	{
- 		font-size: 13px;
- 		padding: 20px;
-}
 
  
- @media screen and (max-width: 473px)	{
-
- 	nav	{
- 		font-size: 12px;
- 		padding: 20px;
-}
-
-
- @media screen and (max-width: 440px)	{
-
- 	nav	{
- 		font-size: 11px;
- 		padding: 20px;
 }
 
 #right	{
